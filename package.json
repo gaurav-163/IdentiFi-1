@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chainlink/contracts": "^1.1.0",
+    "@chainlink/contracts": "^0.8.0",
     "@headlessui/react": "^1.7.18",
     "@hookform/resolvers": "^3.3.4",
     "@privy-io/react-auth": "^1.65.0",
@@ -30,7 +30,7 @@
     "framer-motion": "^11.2.4",
     "hardhat": "^2.22.4",
     "lucide-react": "^0.309.0",
-    "next": "14.0.4",
+    "next": "^14.2.6",
     "nodemailer": "^6.9.8",
     "react": "^18",
     "react-dom": "^18",
@@ -46,6 +46,7 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "wagmi": "^2.9.2",
+    "yarn": "^1.22.22",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -57,7 +58,7 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.0",
     "@typechain/ethers-v6": "^0.5.0",
-    "@typechain/hardhat": "^9.0.0",
+    "@typechain/hardhat": "^6.0.0",
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.14",
     "@types/react": "^18",
@@ -67,7 +68,7 @@
     "chai": "^4.2.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
-    "ethers": "5.7.2",
+    "ethers": "^6.13.2",
     "hardhat-gas-reporter": "^1.0.8",
     "postcss": "^8",
     "solidity-coverage": "^0.8.0",
